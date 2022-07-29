@@ -1,0 +1,272 @@
+x time as + adjective in its positive form + as
+it + is + adjective + for person + to infinitive
+it is + adjective + for + someone + to-infinitive
+ability + to + base form of a verb
+let + object + base form of a verb
+addict + oneself + to + target of addiction
+need + someone + base form of a verb
+allow + object + base form of a verb
+make + object + base form of a verb
+help + someone + base form of verb
+preposition_en to be used to connect the <noun
+verb `to be' + of + abstract noun
+it is + adjective + for + to-infinitive
+it is proud of + someone + to-infinitive
+some friends of students_en is structurally the <subject
+rather + than + base form of verb
+verb `to be' + proud of + gerund
+help + base form of verb or to-infinitive
+prevent + someone + from + gerund
+it + is + adjective + that-clause
+subject + verb 'to be' + complement
+verb `to be' + proud + to-infinitive
+ask + something + from + someone
+provide + something + preposition + someone
+spend + object + preposition + gerund
+ban + someone + from + gerund
+verb_en bg_fine_en is used with the <preposition
+make + object + for + someone
+x times + comparative adjective + than
+prohibit + people + from + gerund
+make + object + verb base form
+quantity + a + noun indicating time
+agree + for + someone + to-infinitive
+subject + verb `to be' + complement
+verb `to be' + proud + that-clause
+want + person + to infinitive
+the verb 'to be' + graduated
+support + someone + in doing
+support + someone + to do
+it is + adjective + gerund
+allow + object + to infinitive
+get + object + to infinitive
+ask +someone + for + something
+allow + object (someone) + to-infinitive
+prohibit + someone+ from + gerund
+in + noun phrase / gerund
+it is + adjective + to-infinitive
+formal subject 'it' + to infinitive
+to + have + past participle
+remind + person + to infinitive
+prevent + someone+ from + gerund
+ask + person + to-infinitive
+force + someone + to-infinitive
+know + object + to-infinitive
+result + in + gerund
+call + object + complement
+need + someone + to-infinitive
+have + object + infinitive
+want + person + to-infinitive
+want + someone + to-infinitive
+for + subject + to-infinitive
+the + ordinal + time
+make + object + infinitive
+subject + verb + object
+someone + from + gerund
+spend + time + to-infinitive
+for + someone + to-infinitive
+watch + someone + gerund
+help + someone + to-infinitive
+recommend + someone + to-infinitive
+agree + with + gerund
+bring + someone + something
+want + someone + gerund
+spend + object + to-infinitive
+hate + someone + to-infinitive
+allow + object + ing
+fine + someone + amount
+base form of a verb
+think + preposition + gerund
+base form of the verb
+allow + object + to-infinitive
+allow + someone + to-infinitive
+about_en is not the <preposition
+know + someone + to-infinitive
+insist + on + gerund
+let + object + infinitive
+make + object + complement
+ask + someone + wh-clause
+stop + person + -ing
+hate + someone + gerund
+bind + someone + to-infinitive
+see + object + gerund
+make + object + adjective
+pay + attention + preposition
+spend + time + gerund
+want + object + to-infinitive
+help + person + infinitive
+it … to structure
+it ~ to structure
+of + abstract noun
+by + bare noun
+between a and b
+in + noun phrase
+someone + to infinitive
+noun + to infinitive
+preposition `by' + gerund
+preposition `in' + gerund
+it seems + that-clause
+for someone to do
+preposition + noun phrase/gerund
+chance + of +gerund
+auxiliary verb + negative
+both a and b
+right + to infinitive
+it ... to structure
+preposition + noun phrase
+the other party
+number + %
+concatenated relative pronoun
+from + gerund
+intransitive verb phrase
+come + to-infinitive
+to infinitive phrases
+verb `to be’
+present continuous tense
+get + to-infinitive
+adverbial noun phrase
+parts of speech
+verb 'to be'
+bring + something
+noun + 's
+help + someone
+by + gerund
+verb `to be'
+number + time(s)
+chance + to-infinitive
+for + gerund
+hope + that-clause
+to infinitive phrase
+preposition + -ing
+subject + predicate
+subject + verb
+on + gerund
+agree + that-clause
+a = b
+infinitive relative clause
+while + gerund
+adjective + to-infinitive
+unlikely to infinitive
+adjective + of
+allow + gerund
+to + verb
+intransitive + preposition
+for + person
+easy + to-infinitive
+number + time
+of + gerund
+part of speech
+insist + to-infinitive
+preposition + gerund
+in + gerund
+for + noun
+it...to structure
+future tense
+passive voice
+adjectival clause
+predicative verb
+relative pronouns
+svoo structure
+relative clauses
+relative pronoun
+affirmative sentence
+negative form
+quotation marks
+demonstrative pronoun
+action noun
+past participle
+provisional subject
+auxiliary verb
+adjectival phrase
+indirect object
+to infinite
+subsequent noun
+to-infinitive phrase
+causative use
+set phrase
+causative verb
+principal verb
+present participle
+direct object
+the cigarettes
+affirmative sentences
+noun phrases
+coordinating conjunctions
+existential sentence
+adverbial infinitives
+relative clause
+subordinate clause
+sense subject
+parenthetical clause
+noun phrase
+definite article
+causative construction
+correlative conjunction
+noun clause
+prepositional phrase
+formal subject
+coordinating conjunction
+phrasal preposition
+main verb
+comparative adverb
+direct objects
+phrasal verbs
+complete sentence
+declarative sentence
+sense object
+relative adverb
+adverbial infinitive
+verb phrase
+-ing form
+word order
+all people
+possessive pronoun
+that clause
+deverbal preposition
+compound preposition
+intransitive verb
+compound prepositions
+participial construction
+base form
+reflexive pronoun
+notional subject
+to infinitive
+verbal phrase
+adjectival infinitive
+indefinite article
+bare infinitive
+transitive verb
+adverbial phrase
+adverbial phrases
+perfect tense
+subordinate conjunction
+negative sentence
+infinitive form
+possessive nouns
+declarative sentences
+it…to syntax
+nominative case
+relative adjective
+possessive case
+active voice
+conjunctional phrase
+predicate verb
+subordinating conjunction
+comparative adjective
+causal syntax
+true subject
+notional object
+gerund phrase
+infinitive phrase
+plural noun
+phrasal verb
+prepositional adverb
+adjectival use
+indirect objects
+inverted sentence
+possessive noun
+transitive verbs
+demonstrative adjective
+existential clause
+real subject
+causative sentence
