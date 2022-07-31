@@ -1,6 +1,9 @@
 import spacy
-nlp=spacy.load('en_core_web_md')
-
+try:
+    nlp=spacy.load('en_core_web_md')
+except Exception as e:
+    print(f"Failed with {e}, try running the following command - !python3 -m spacy download en_core_web_md")
+    
 from transformers import pipeline
 
 def isbetween(index, offset_list):
