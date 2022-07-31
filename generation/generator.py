@@ -12,11 +12,11 @@ class FeedbackGenerator():
         self.model.eval();
         
         if cuda_index != False:
-            device = torch.cuda.device(cuda_index)
+            device = torch.device(f'cuda:{cuda_index}')
             self.model.to(device);
         
         
-    def paraphrase(self, text, error_offsets:list, temperature=1.1, beams=3, 
+    def get_feedback(self, text, error_offsets:list, temperature=1.0, beams=3, 
                    num_return_sequences = 1, do_sample = False,
                   repetition_penalty = 1.1, max_length_multiplier = 3):
         texts = [text] if isinstance(text, str) else text
@@ -26,9 +26,7 @@ class FeedbackGenerator():
         for txt, off in zip(texts,error_offsets):
             txt_processed = preprocessing(txt, off)
             texts_processed.append(txt_processed)        
-            
-        print(texts_processed)
-        
+                    
         inputs = self.tokenizer(texts_processed, return_tensors='pt', padding=True)['input_ids'].to(self.model.device)
         result = self.model.generate(
             inputs, 
@@ -37,13 +35,10 @@ class FeedbackGenerator():
             temperature=temperature, 
             repetition_penalty=repetition_penalty, 
             max_length=int(inputs.shape[1] * max_length_multiplier) ,
-            bad_words_ids=[[2]],  # unk
             num_beams=beams,
         )
         texts = [self.tokenizer.decode(r, skip_special_tokens=True) for r in result]
-        
-        print(texts)
-        
+                
         if isinstance(text, str):
             return post_process_string(texts[0])
         
