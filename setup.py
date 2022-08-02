@@ -10,15 +10,16 @@ if os.path.exists("README.md"):
 
 setup(
     name='feedback_generation_nigula',
-    version='0.0.0',
+    packages = ['feedback_generation_nigula'],
+    version='0.0.8',
     license='Apache',
     author="Nikolay babakov",
     author_email='bbkhse@gmail.com',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages = find_packages(),
     url='https://github.com/skoltech-nlp/feedback_generation_nigula',
     install_requires=[
           'transformers', 'torch', 'spacy'
       ],
+    package_data = {'feedback_generation_nigula':['data/*.txt']}
 )

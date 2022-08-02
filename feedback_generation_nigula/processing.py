@@ -15,12 +15,12 @@ current_dir = os.path.dirname(os.path.realpath(__file__))
 
 
 sorted_content_termins_twoplus = []
-with open(os.path.join(current_dir,'complex_content_termins.txt')) as f:
+with open(os.path.join(current_dir, 'data', 'complex_content_termins.txt')) as f:
     for l in f.readlines():
         sorted_content_termins_twoplus.append(l.strip())
         
 sorted_grammar_termins_twoplus = []
-with open( os.path.join(current_dir,'complex_grammar_termins.txt')) as f:
+with open( os.path.join(current_dir, 'data', 'complex_grammar_termins.txt')) as f:
     for l in f.readlines():
         sorted_grammar_termins_twoplus.append(l.strip())
 

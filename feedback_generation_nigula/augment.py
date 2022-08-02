@@ -2,13 +2,16 @@ import spacy
 try:
     nlp=spacy.load('en_core_web_md')
 except Exception as e:
-    print(f"Failed with {e}, try running the following command - !python3 -m spacy download en_core_web_md")
+    import os
+    print(os.popen('python3 -m spacy download en_core_web_md').read())
+    nlp=spacy.load('en_core_web_md')
+    
+    # raise Exception(f"Failed with {e}, try running the following command - < python3 -m spacy download en_core_web_md > and reload your notebook")
     
 from transformers import pipeline
 
 def isbetween(index, offset_list):
     return offset_list[0] <= int(index) <= offset_list[1]
-
 
 def get_smart_truncated_string(text, err_word_offset, debug = False):
     
