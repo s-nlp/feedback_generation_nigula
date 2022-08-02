@@ -26,7 +26,7 @@ fg.get_feedback([text_with_error ], [error_span ])
 
 ## Augmentation of the dataset
 
-The main feature of our solution was special method for augmentation of the initial dataset. Our approach to augmentation consists of two parts. First, we use cut the initial sentence by the last word which is syntactically related to the words withn error span. Second, we use the rest of the text as a prompt to the language model so it generates an alternative end to the sentence with a given prefix.
+The main feature of our solution was special method for augmentation of the initial dataset. Our approach to augmentation consists of two parts. First, we cut the initial sentence by the last word which is syntactically related to the words withn error span. Second, we use the rest of the text as a prompt to the language model so it generates an alternative end to the sentence with a given prefix.
 
 Below is the function which truncate the sentence in sch way that the words related to the error are kept and everything after them is skipped.
 ```python
