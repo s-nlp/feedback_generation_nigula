@@ -16,9 +16,9 @@ setup(
     author_email='bbkhse@gmail.com',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=setuptools.find_packages(),
+    packages = find_packages(),
     url='https://github.com/skoltech-nlp/feedback_generation_nigula',
     install_requires=[
-          'transformers>=4.13.0', 'torch', 'spacy'
+          'transformers', 'torch', 'spacy'
       ],
 )

@@ -1,7 +1,7 @@
 from transformers import T5ForConditionalGeneration, AutoTokenizer
 import torch
 
-from processing import preprocessing, post_process_string
+from .processing import preprocessing, post_process_string
 
 class FeedbackGenerator():
     
