@@ -2,6 +2,8 @@
 
 This repository presents the solution of team __nigula__ in [GenChal 2022](https://fcg.sharedtask.org/) shared task dedicated to the feedback comment generation for writing learning. Feedback comment generation is a task where, given an input text, a system generates hints or explanatory notes that help language learners improve their writing skills.
 
+The model is trained to generate a feedback to sucf errors as misuse of prepositions and other writing items such as discourse and lexical choice. 
+
 # How to use
 
 ## Installation
@@ -28,7 +30,7 @@ fg.get_feedback([text_with_error ], [error_span ])
 
 The main feature of our solution was special method for augmentation of the initial dataset. Our approach to augmentation consists of two parts. First, we cut the initial sentence by the last word which is syntactically related to the words withn error span. Second, we use the rest of the text as a prompt to the language model so it generates an alternative end to the sentence with a given prefix.
 
-Below is the function which truncate the sentence in sch way that the words related to the error are kept and everything after them is skipped.
+Below is the function which truncate the sentence in such way that the words related to the error are kept and everything after them is skipped.
 ```python
 
 from feedback_generation_nigula.augment import  get_smart_truncated_string
@@ -47,7 +49,7 @@ The truncated text is used as a prompt to a large pretrained language model and 
 ```python
 from feedback_generation_nigula.augment import Augmenter
 
-aug = Augmenter(cuda_index = 0)# the model here is quiet big (EleutherAI/gpt-neo-1.3B) so it is recommended to launch this with GPU
+aug = Augmenter(cuda_index = 0)# the model here is quiet big (EleutherAI/gpt-neo-1.3B) so it is recommended to launch this with GPU on the machine with big RAM. You can also use an alternative language model which fits your machine
  
 aug.augment(truncated_text, is_text_truncated = True)
 
