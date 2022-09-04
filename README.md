@@ -63,11 +63,11 @@ We used our augmentation approach to generate an augmented version of the origin
 
 # Competition results
 
-| Participant ID | Precision | Recall | F1.0   |
-|----------------|-----------|--------|--------|
-| ihmana         | 0.6244    | 0.6186 | 0.6215 |
-| __nigula (ours)__  | 0.6093    | 0.6093 | 0.6093 |
-| TMUUED         | 0.6132    | 0.6047 | 0.6089 |
+| rank | Participant ID | Precision | Recall |  F1.0  |
+|------|:--------------:|:---------:|:------:|:------:|
+| 1    | ihmana         | 0.6244    | 0.6186 | 0.6215 |
+| 2    | nigula (ours)  | 0.6093    | 0.6093 | 0.6093 |
+| 3    | TMUUED         | 0.6132    | 0.6047 | 0.6089 |
 
 The official results page is [here](https://fcg.sharedtask.org/results/)
 
