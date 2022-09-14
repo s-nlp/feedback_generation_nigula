@@ -49,7 +49,10 @@ The truncated text is used as a prompt to a large pretrained language model and 
 ```python
 from feedback_generation_nigula.augment import Augmenter
 
-aug = Augmenter(cuda_index = 0)# the model here is quiet big (EleutherAI/gpt-neo-1.3B) so it is recommended to launch this with GPU on the machine with big RAM. You can also use an alternative language model which fits your machine
+aug = Augmenter(cuda_index = 0, model_name = "EleutherAI/gpt-neo-1.3B")
+# the model here is quiet big (EleutherAI/gpt-neo-1.3B) so it is recommended to launch this with GPU on the machine with big RAM. 
+# You can also use an alternative language model which fits your machine
+# To select a different model use `model_name` variable when initializing Augmenter class
  
 aug.augment(truncated_text, is_text_truncated = True)
 
