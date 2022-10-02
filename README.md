@@ -60,10 +60,6 @@ aug.augment(text, is_text_truncated = False, err_word_offset = offset)
 
 ```
 
-## Augmented version of train data
-
-We used our augmentation approach to generate an augmented version of the original dataset from the organizers of the shared task. The augmented version can be found [here](feedback_generation_nigula/augmented_data.csv)
-
 # Competition results
 
 | rank | Participant ID | Precision | Recall |  F1.0  |
